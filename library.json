@@ -1,0 +1,22 @@
+{
+	"name": "AtoMatrix",
+	"keywords": "esp32, Atom, espidf",
+	"description": "Atom Matrix led controller on ESP-IDF",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ixsiid/AtoMatrix.git"
+	},
+	"authors": [
+		{
+			"name": "IXSIID",
+			"email": "ixsiid@halzion.net",
+			"url": "https://halzion.net",
+			"maintainer": true
+		}
+	],
+	"version": "1.0.0",
+	"frameworks": [
+		"espidf"
+	],
+	"platforms": "espressif32"
+}
