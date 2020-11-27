@@ -1,11 +1,18 @@
 # M5Atom Simple LED Matrix for esp-idf
 
 M5AtomをESP-IDF環境で開発する際に、簡単にLED Matrixを扱うためのライブラリ
+
 実装の簡便化のために次の制約がある。
-色数は256色（RGB332フォーマット）
-明るさ変更不可（FastLEDのsetBrightnessで、60相当に設定済み）
 
+- 色数は256色（RGB332フォーマット）
+- 明るさ変更不可（FastLEDのsetBrightnessで、60相当に設定済み）
 
+# Install
+
+```platformio.ini
+lib_deps =
+	https://github.com/ixsiid/AtoMatrix.git#master
+```
 
 # Example
 
